@@ -1,0 +1,9 @@
+{
+	"name": "greenlight hosted",
+	"description": "Greenlight hosted site template",
+	"homepage": "https://github.com/cfriel/greenlight-hosted",
+	"author": "cfriel",
+	"version": "0.1.0",
+	"git": "https://github.com/cfriel/greenlight-hosted.git",
+	"packages": {}
+}
