@@ -3,7 +3,7 @@ var version = "1.0";
 
 hosted = function(){};
 
-hosted.prototype = new hosted();
+hosted.prototype = new Greenlight.Package();
 
 hosted.prototype.routes =   {
     
