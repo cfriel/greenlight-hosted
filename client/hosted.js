@@ -29,8 +29,11 @@ hosted.prototype.default_route = {
 
 Greenlight.Packages.Hosted = hosted.prototype;
 
-console.log("loading hosted package");
+Meteor.startup(function(){
 
-Greenlight.register_template(name, version, Greenlight.Packages.Hosted);
+    console.log("loading hosted package");
+    
+    Greenlight.register_template(name, version, Greenlight.Packages.Hosted);
 
+});
 
