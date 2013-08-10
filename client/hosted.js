@@ -27,10 +27,10 @@ hosted.prototype.default_route = {
 
 };
 
-Greenlight.Hosted = hosted.prototype;
+Greenlight.Packages.Hosted = hosted.prototype;
 
 console.log("loading hosted package");
 
-Greenlight.register_template(name, version, Greenlight.Hosted);
+Greenlight.register_template(name, version, Greenlight.Packages.Hosted);
 
 

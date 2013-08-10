@@ -25,12 +25,12 @@ hosted.prototype.metadata = function()
 }();
 
 
-Greenlight.Hosted = hosted.prototype;
+Greenlight.Packages.Hosted = hosted.prototype;
 
 Meteor.startup(function(){
     
     console.log("loading hosted package");
 
-    Greenlight.register_template(name, version, Greenlight.Hosted);
+    Greenlight.register_template(name, version, Greenlight.Packages.Hosted);
         
 });
