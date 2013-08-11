@@ -31,6 +31,6 @@ Meteor.startup(function(){
     
     console.log("loading hosted package");
 
-    Greenlight.register_template(name, version, Greenlight.Packages.Hosted);
+    Greenlight.register_package(name, version, Greenlight.Packages.Hosted);
         
 });
