@@ -6,6 +6,9 @@ Package.on_use(function (api, where) {
 
     api.use('router', ['client', 'server']);
     api.use(['templating'], 'client');
+    api.use('deps', ['client', 'server']);
+    api.use('session', ['client', 'server']);
+    api.use('greenlight', ['client','server']);
     
     api.add_files(['client/hosted_page.html', 'client/hosted_page.js', 'client/hosted_page.css'], 'client');
     api.add_files('client/hosted.js', 'client');

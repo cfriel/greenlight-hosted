@@ -9,7 +9,7 @@ hosted.prototype.routes =   {
     
     '/hosted': function()
     {
-	console.log("calling /hosted route");
+	Greenlight.log("calling /hosted route");
 
 	return 'hosted_page';
     }
@@ -20,7 +20,7 @@ hosted.prototype.default_route = {
 
     '/' : function()
     {
-	console.log("calling default route");
+	Greenlight.log("calling default route");
 
 	return 'hosted_page';
     }
@@ -31,7 +31,7 @@ Greenlight.Packages.Hosted = hosted.prototype;
 
 Meteor.startup(function(){
 
-    console.log("loading hosted package");
+    Greenlight.log("loading hosted package");
     
     Greenlight.register_package(name, version, Greenlight.Packages.Hosted);
 
